@@ -1,0 +1,30 @@
+@media (max-width: 768px)  { 
+    .logo {
+        text-align: center;
+    }
+    .cta-simples {
+        width: 100%;
+        background: #ffffff;
+    }
+    .bloco-cta-como-funciona {
+        margin-top: 0px;
+    }
+    
+    .veja-como-funciona-home .container {
+        margin-top: 0px;
+    }
+    .titulo-home {
+        margin-top: 30px;
+    }
+    .banner-home {
+        min-height: auto;
+        padding-bottom: 30px;
+    }
+    .play {
+        margin-top: 30px;
+    }
+    .menu {
+        display: block;
+    }
+    
+}
