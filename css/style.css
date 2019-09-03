@@ -11,7 +11,7 @@ body {
 input[type="email"] {
     padding: 20px;
     background: #F9FAFF;
-    min-width: 260px;
+    min-width: 100%;
     border: solid 1px #F0F0F0;
 }
 
