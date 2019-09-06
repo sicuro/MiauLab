@@ -8,7 +8,7 @@ body {
 ::placeholder {
     color: #959698;
 }
-input[type="email"] {
+input, .form-control {
     padding: 20px;
     background: #F9FAFF;
     min-width: 100%;
@@ -204,4 +204,48 @@ footer .container {
 footer .copyright {
     border-top: solid 1px #f0f0f0;
     padding: 30px;
+}
+
+.bg-modal {
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+.menu-login {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.menu-login ul {
+    margin: 0;
+    padding: 0;
+}
+.menu-login ul li {
+    display: inline;
+    margin-right: 20px;
+    border-bottom: solid 3px #4167E6;
+}
+.bg-login {
+    color: #ffffff;
+    padding: 20px 30px;
+    background: url(../images/bg-login.png) #4167E6 no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-login h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.bg-login p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+.form-cadastro {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    display: block !important;
+    
 }
