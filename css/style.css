@@ -46,7 +46,6 @@ header .menu ul li {
 .cta::after {
     content: url(../images/seta.svg);
     position: relative;
-    z-index: 100000;
     left: 10px;
     top: 3px; 
 }
@@ -61,7 +60,6 @@ header .menu ul li {
 .cta-simples::after {
     content: url(../images/seta-azul.svg);
     position: relative;
-    z-index: 1;
     left: 10px;
     top: 3px;
 }
